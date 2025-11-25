@@ -1,0 +1,32 @@
+.empty-state {
+  text-align: center;
+  color: white;
+  padding: 3rem;
+}
+
+.empty-state-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.empty-state h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
